@@ -1,0 +1,10 @@
+|    Endpoint   |       IP      |  Subnet Mask  |Default Gateway|   DNS Server  |
+| :---          |     :---:     |     :---:     |     :---:     |     :---:     |
+| PC0           | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| PC1           | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| PC2           | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| PC3           | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Server0       | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Server1       | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Server2       | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Server3       | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
