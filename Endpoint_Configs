@@ -1,10 +1,18 @@
 |    Endpoint   |       IP      |  Subnet Mask  |Default Gateway|   DNS Server  |
 | :---          |     :---:     |     :---:     |     :---:     |     :---:     |
-| PC0           | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| PC1           | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| PC2           | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| PC3           | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Server0       | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Server1       | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Server2       | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Server3       | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| PC0           |      DHCP     |      DHCP     |      DHCP     |      DHCP     |
+| PC1           |      DHCP     |      DHCP     |      DHCP     |      DHCP     |
+| PC2           |      DHCP     |      DHCP     |      DHCP     |      DHCP     |
+| PC3           |      DHCP     |      DHCP     |      DHCP     |      DHCP     |
+| Server0       |  192.168.1.2  | 255.255.255.0 |  192.168.1.2  |    8.8.8.8    |
+| Server1       |    8.8.8.8    | 255.255.255.0 |    8.8.8.1    |    8.8.8.8    |
+| Server2       |   94.65.5.2   | 255.255.255.0 |   94.65.5.1   |    8.8.8.8    |
+| Server3       |   94.65.5.3   | 255.255.255.0 |   94.65.5.1   |    8.8.8.8    |
+
+
+# DHCP:
+PC0 | PC1 | PC2
+
+Network 172.16.1.0/24
+Default Gateway 172.16.1.1
+DNS Server 8.8.8.8
