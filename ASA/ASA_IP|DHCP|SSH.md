@@ -29,6 +29,11 @@ dhcpd address 172.16.1.10-172.16.1.20 inside
 dhcpd dns 8.8.8.8 interface inside
 dhcpd enable inside
 ```
+#Routes
+```
+route outside 0.0.0.0 0.0.0.0 94.65.3.1 1
+route outside 8.8.8.8 255.255.255.255 94.65.3.1 1
+```
 
 #SSH
 
