@@ -1,6 +1,6 @@
-# ASA
+# ASA Firewall
 
-The ASA exercise on Packet Tracer focused on deepening knowledge in firewall concepts. The network topology featured an ASA connected to an ISP, with two private networks managed by the ASA. NAT was used for external communication, and access control rules were implemented on the firewall.
+The ASA Firewall exercise on Packet Tracer focused on deepening knowledge in firewall concepts. The network topology featured an ASA connected to an ISP, with two private networks managed by the ASA. NAT was used for external communication, and access control rules were implemented on the firewall.
 
 The ASA's private network consisted of three PCs that received IP addresses through DHCP from the ASA. The ASA's second private network hosted a simple server providing HTTP/HTTPS web services and an FTP server. The ASA's public interface served as the only outside NAT interface, connected to the ISP.
 
